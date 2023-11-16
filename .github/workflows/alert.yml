@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: y-mehta/vulnalerts@v1
+    - uses: liarsd/cve_sender@v1
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
     - name: done
