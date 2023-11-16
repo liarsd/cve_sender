@@ -10,7 +10,6 @@ LABEL "homepage"="https://github.com/liarsd/cve_sender"
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip3 install --upgrade urllib3
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
