@@ -8,8 +8,8 @@ jobs:
   alert:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: liarsd/cve_sender@master
+    - uses: actions/checkout@main
+    - uses: liarsd/cve_sender@main
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
     - name: done
