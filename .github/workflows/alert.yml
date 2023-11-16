@@ -2,7 +2,7 @@ name: VulnAlerts
 
 on: 
   schedule:
-    - cron:  '45 16 * * *'
+    - cron:  '05 * * * *'
 
 jobs:
   alert:
