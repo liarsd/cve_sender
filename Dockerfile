@@ -9,8 +9,6 @@ LABEL "repository"="https://github.com/liarsd/cve_sender"
 LABEL "homepage"="https://github.com/liarsd/cve_sender"
 
 COPY requirements.txt ./
-RUN pip uninstall urllib3
-RUN install 'urllib3<2.0'
 RUN pip install --no-cache-dir -r requirements.txt
 
 ENV PYTHONDONTWRITEBYTECODE 1
