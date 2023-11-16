@@ -1,3 +1,4 @@
+[![VulnAlerts](https://github.com/liarsd/cve_sender/actions/workflows/alert.yml/badge.svg?branch=main&event=status)](https://github.com/liarsd/cve_sender/actions/workflows/alert.yml)
 # VulnAlerts - Customized CVE Alerts straight to lack Channel
 
 ## How to Use?
