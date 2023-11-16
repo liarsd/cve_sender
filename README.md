@@ -1,4 +1,4 @@
-# VulnAlerts - Customized CVE Alerts straight to your Slack Channel
+# VulnAlerts - Customized CVE Alerts straight to lack Channel
 
 ## How to Use?
 - [Create an Incoming Webhook on Slack](https://slack.com/intl/en-in/help/articles/115005265063-Incoming-WebHooks-for-Slack)
@@ -36,14 +36,3 @@ Note: No need to enter full CPE unless you want to monitor specific version. ```
 - [CVE-Recent JSON Vulnerability Feed](https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.gz) is fetched from the NVD.
 - The JSON feed is processed to check if any CPEs mentioned in **cpe.txt** are present in the Feed.
 - After processing is done, It'll send the message to Slack Incoming Webhook.
-
-## Sample Alert:
-
-![image](https://user-images.githubusercontent.com/24428063/72280765-19bf9380-365f-11ea-84d3-395a78343f3e.png)
-
-
-## Security Warning
-- Don't hardcode your Slack Incoming Webhook URL into the python file.
-
-## References
-- https://nvd.nist.gov/
