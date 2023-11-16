@@ -1,4 +1,4 @@
-FROM buildpack-deps:bookworm
+FROM python:3.11
 
 LABEL "com.github.actions.name"="VulnAlerts"
 LABEL "com.github.actions.description"="Daily customized CVE Alerts straight to your Slack Inbox for Free."
