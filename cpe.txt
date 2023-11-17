@@ -11,3 +11,4 @@ oracle:mysql
 vim:vim
 redhat
 linux
+adobe
