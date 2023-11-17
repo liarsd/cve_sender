@@ -40,9 +40,9 @@ def parse_nvd_feed(cpes):
     return message,cve_count
 
 def slack_block_format(product, description, id):
-    block = ',{"type": "section", "text": {"type": "mrkdwn","text": "*Product:* ' + product + '\n *CVE ID:* ' + id + '\n *Description:* ' + description + '\n "}}, {"type": "divider"}'
+    block = ',{"type": "section", "text": {"type": "mrkdwn","text": "/color *Product:* ff0000 ' + product + '\n *CVE ID:* ' + id + '\n *Description:* ' + description + '\n "}}, {"type": "divider"}'
     return block
-
+ 
 def send_slack_alert(message,cve_count):
     url = os.getenv('SLACK_WEBHOOK')
     slack_message = '{"blocks": [{"type": "section","text": {"type": "plain_text","emoji": true,"text": "Hello :wave:,'+ str(cve_count) +' Security Vulnerabilities affecting your Tech Stack were disclosed today."}}' + message + ']}'
