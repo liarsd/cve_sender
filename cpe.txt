@@ -12,3 +12,4 @@ vim:vim
 redhat
 linux
 adobe
+hashicorp:vault
