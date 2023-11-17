@@ -2,3 +2,9 @@ acme:thttpd
 nothings:stb_truetype
 a:atlassian
 f5:nginx
+apache:http_server
+mariadb:mariadb
+nginx:nginx
+varnish-cache:varnish
+php:php:7
+oracle:mysql
