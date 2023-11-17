@@ -9,3 +9,5 @@ varnish-cache:varnish
 php:php:7
 oracle:mysql
 vim:vim
+redhat
+linux
