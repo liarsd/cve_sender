@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - uses: liarsd/VulnAlerts@main
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
     - name: done
