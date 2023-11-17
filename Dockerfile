@@ -16,5 +16,5 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 COPY main.py entrypoint.sh /
-
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
