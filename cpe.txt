@@ -41,3 +41,6 @@ kubernetes:
 docker:
 podman_project:podman
 moosefs
+wireguard:wireguard
+fail2ban:fail2ban
+redis
