@@ -43,4 +43,4 @@ podman_project:podman
 moosefs
 wireguard:wireguard
 fail2ban:fail2ban
-redis
+redis:redis
