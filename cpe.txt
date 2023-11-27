@@ -1,5 +1,6 @@
 apache:http_server
 atlassian:
+atlassian
 f5:nginx
 nginx:nginx
 apache:http_server
